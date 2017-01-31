@@ -9,3 +9,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+#
+def p_times(statement, num)
+  num.times do puts statement end
+end
+
+p_times 'Hello, world!', 8

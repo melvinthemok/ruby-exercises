@@ -9,3 +9,12 @@
 #
 # > 120
 #
+def factorial(num)
+  total = 1
+  (1..num).each do |n|
+    total *= n
+  end
+  puts total
+end
+
+factorial(8)
